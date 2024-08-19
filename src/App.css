@@ -1,0 +1,26 @@
+head,
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  overflow: hidden;
+}
+
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 20vh;
+  height: 50vh;
+  width: 40vw;
+  background-color: lightblue;
+  padding: 2vh;
+  border-radius: calc(2vh + 2vw);
+}
